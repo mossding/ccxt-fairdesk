@@ -1,7 +1,7 @@
 {
   "name": "ccxt-fairdesk",
   "version": "3.0.23",
-  "description": "A JavaScript / Python / PHP cryptocurrency trading library with support for fairdesk.com",
+  "description": "A JavaScript cryptocurrency trading library with support for fairdesk.com",
   "unpkg": "dist/ccxt.browser.js",
   "type": "module",
   "exports": {
@@ -13,12 +13,9 @@
   "engines": {
     "node": ">=15.0.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccxt/ccxt.git"
+    "url": "https://github.com/mossding/ccxt-fairdesk.git"
   },
   "readme": "README.md",
   "scripts": {
@@ -120,13 +117,13 @@
     "typescript": "4.7.4"
   },
   "author": {
-    "name": "Igor Kroitor",
-    "email": "igor.kroitor@gmail.com",
-    "url": "https://github.com/kroitor"
+    "name": "mossding",
+    "email": "yiming.d@fairdesk.com",
+    "url": "https://github.com/mossding"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fairdesk/ccxt/issues"
+    "url": "https://github.com/mossding/ccxt-fairdesk/issues"
   },
   "homepage": "https://fairdesk.com",
   "keywords": [
@@ -209,12 +206,6 @@
     "zec",
     "zerocoin"
   ],
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ccxt",
-    "logo": "https://opencollective.com/ccxt/logo.txt"
-  },
-  "ethereum": "0x26a3CB49578F07000575405a57888681249c35Fd",
   "dependencies": {
     "ws": "^8.8.1"
   }
