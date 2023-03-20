@@ -5,7 +5,7 @@ var Precise = require('./base/Precise.js');
 var Exchange = require('./base/Exchange.js');
 var number = require('./base/functions/number.js');
 
-// ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // ---------------------------------------------------------------------------
 class bitfinex2 extends Exchange["default"] {
     describe() {

@@ -4,7 +4,7 @@ var Exchange = require('./base/Exchange.js');
 var errors = require('./base/errors.js');
 var number = require('./base/functions/number.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class bitforex extends Exchange["default"] {
     describe() {

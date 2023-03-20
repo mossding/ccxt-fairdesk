@@ -4,6 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var zlib = require('zlib');
 
+// ----------------------------------------------------------------------------
 function inflate(data) {
     return zlib.inflateRawSync(data).toString();
 }

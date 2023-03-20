@@ -4,7 +4,7 @@ var cryptocom$1 = require('../cryptocom.js');
 var errors = require('../base/errors.js');
 var Cache = require('../base/ws/Cache.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class cryptocom extends cryptocom$1 {
     describe() {

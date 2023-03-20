@@ -6,7 +6,7 @@ var time = require('../functions/time.js');
 var generic = require('../functions/generic.js');
 var OrderBookSide = require('./OrderBookSide.js');
 
-/* eslint-disable max-classes-per-file */
+// ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
 // overwrites absolute volumes at price levels
 class OrderBook {

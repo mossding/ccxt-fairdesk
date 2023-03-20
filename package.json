@@ -126,9 +126,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ccxt/ccxt/issues"
+    "url": "https://github.com/fairdesk/ccxt/issues"
   },
-  "homepage": "https://ccxt.com",
+  "homepage": "https://fairdesk.com",
   "keywords": [
     "algorithmic",
     "algotrading",
@@ -165,6 +165,7 @@
     "exchange",
     "exchanges",
     "eur",
+    "fairdesk",
     "framework",
     "invest",
     "investing",

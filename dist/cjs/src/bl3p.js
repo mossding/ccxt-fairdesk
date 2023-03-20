@@ -4,7 +4,7 @@ var Exchange = require('./base/Exchange.js');
 var Precise = require('./base/Precise.js');
 var number = require('./base/functions/number.js');
 
-// ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // ---------------------------------------------------------------------------
 class bl3p extends Exchange["default"] {
     describe() {

@@ -9,6 +9,7 @@ var encode = require('../functions/encode.js');
 require('../functions/crypto.js');
 var time = require('../functions/time.js');
 
+// ----------------------------------------------------------------------------
 class Client {
     constructor(url, onMessageCallback, onErrorCallback, onCloseCallback, onConnectedCallback, config = {}) {
         const defaults = {

@@ -5,7 +5,7 @@ var Precise = require('./base/Precise.js');
 var number = require('./base/functions/number.js');
 var kucoin = require('./kucoin.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class kucoinfutures extends kucoin {
     describe() {

@@ -5,7 +5,7 @@ var Exchange = require('./base/Exchange.js');
 var number = require('./base/functions/number.js');
 var errors = require('./base/errors.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class poloniexfutures extends Exchange["default"] {
     describe() {

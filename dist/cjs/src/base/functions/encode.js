@@ -6,7 +6,7 @@ var cryptoJs = require('../../static_dependencies/crypto-js/crypto-js.cjs.js');
 var index = require('../../static_dependencies/qs/index.cjs.js');
 var bn = require('../../static_dependencies/BN/bn.cjs.js');
 
-/* eslint-disable */
+// ----------------------------------------------------------------------------
 /*  ------------------------------------------------------------------------ */
 // global vars for base58 encoding
 const base58Alphabet = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';

@@ -103,6 +103,7 @@ var delta = require('./src/delta.js');
 var deribit = require('./src/deribit.js');
 var digifinex = require('./src/digifinex.js');
 var exmo = require('./src/exmo.js');
+var fairdesk = require('./src/fairdesk.js');
 var flowbtc = require('./src/flowbtc.js');
 var fmfwio = require('./src/fmfwio.js');
 var gate = require('./src/gate.js');
@@ -275,6 +276,7 @@ const exchanges = {
     'deribit': deribit,
     'digifinex': digifinex,
     'exmo': exmo,
+    'fairdesk': fairdesk,
     'flowbtc': flowbtc,
     'fmfwio': fmfwio,
     'gate': gate,
@@ -484,6 +486,7 @@ exports.delta = delta;
 exports.deribit = deribit;
 exports.digifinex = digifinex;
 exports.exmo = exmo;
+exports.fairdesk = fairdesk;
 exports.flowbtc = flowbtc;
 exports.fmfwio = fmfwio;
 exports.gate = gate;
