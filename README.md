@@ -1,4 +1,8 @@
-# CCXT – CryptoCurrency eXchange Trading Library
+# ccxt-fairdesk – CryptoCurrency eXchange Trading Library
+
+> [https://www.npmjs.com/package/ccxt-fairdesk](https://www.npmjs.com/package/ccxt-fairdesk)
+
+[![Fairdesk](https://static.fairdesk.com/fairdeskgo/img/fairdesk.com.jpg)](https://www.fairdesk.com)
 
 [![Build Status](https://travis-ci.com/ccxt/ccxt.svg?branch=master)](https://travis-ci.com/ccxt/ccxt) [![npm](https://img.shields.io/npm/v/ccxt.svg)](https://npmjs.com/package/ccxt) [![PyPI](https://img.shields.io/pypi/v/ccxt.svg)](https://pypi.python.org/pypi/ccxt) [![NPM Downloads](https://img.shields.io/npm/dy/ccxt.svg)](https://www.npmjs.com/package/ccxt) [![Discord](https://img.shields.io/discord/690203284119617602?logo=discord&logoColor=white)](https://discord.gg/ccxt) [![Supported Exchanges](https://img.shields.io/badge/exchanges-112-blue.svg)](https://github.com/ccxt/ccxt/wiki/Exchange-Markets) [![Twitter Follow](https://img.shields.io/twitter/follow/ccxt_official.svg?style=social&label=CCXT)](https://twitter.com/ccxt_official)
 
@@ -17,11 +21,6 @@ Current feature list:
 - optional normalized data for cross-exchange analytics and arbitrage
 - an out of the box unified API that is extremely easy to integrate
 - works in Node 10.4+, Python 3, PHP 8.1+, and web browsers
-
-
-## Sponsored Promotion
-
-[![Join the CCXT x Gate.io Campaign: Win 100% Trading Fee Discount and VIP Upgrade on Gate.io](https://user-images.githubusercontent.com/1294454/226325169-42b98991-5111-4053-b220-16cc3e978795.jpg)](https://github.com/ccxt/ccxt/issues/17273)
 
 
 ## See Also
