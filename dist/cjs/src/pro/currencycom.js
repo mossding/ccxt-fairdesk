@@ -4,7 +4,7 @@ var currencycom$1 = require('../currencycom.js');
 var Precise = require('../base/Precise.js');
 var Cache = require('../base/ws/Cache.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class currencycom extends currencycom$1 {
     describe() {

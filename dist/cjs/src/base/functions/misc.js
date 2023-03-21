@@ -5,6 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var number = require('./number.js');
 var errors = require('../errors.js');
 
+// ----------------------------------------------------------------------------
 //-------------------------------------------------------------------------
 // converts timeframe to seconds
 const parseTimeframe = (timeframe) => {

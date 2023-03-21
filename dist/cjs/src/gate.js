@@ -5,7 +5,7 @@ var Precise = require('./base/Precise.js');
 var number = require('./base/functions/number.js');
 var errors = require('./base/errors.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 class gate extends Exchange["default"] {
     describe() {
         return this.deepExtend(super.describe(), {

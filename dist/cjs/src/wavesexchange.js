@@ -4,7 +4,7 @@ var Exchange = require('./base/Exchange.js');
 var errors = require('./base/errors.js');
 var Precise = require('./base/Precise.js');
 
-//  ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 //  ---------------------------------------------------------------------------
 class wavesexchange extends Exchange["default"] {
     describe() {

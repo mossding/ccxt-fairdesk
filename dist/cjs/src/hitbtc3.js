@@ -5,6 +5,7 @@ var number = require('./base/functions/number.js');
 var Precise = require('./base/Precise.js');
 var errors = require('./base/errors.js');
 
+// ----------------------------------------------------------------------------
 class hitbtc3 extends Exchange["default"] {
     describe() {
         return this.deepExtend(super.describe(), {
