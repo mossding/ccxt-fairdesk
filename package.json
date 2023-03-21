@@ -1,6 +1,6 @@
 {
   "name": "ccxt-fairdesk",
-  "version": "3.0.23",
+  "version": "3.0.25",
   "description": "A JavaScript cryptocurrency trading library with support for fairdesk.com",
   "unpkg": "dist/ccxt.browser.js",
   "type": "module",

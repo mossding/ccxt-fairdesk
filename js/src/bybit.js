@@ -5978,7 +5978,7 @@ export default class bybit extends Exchange {
         const [enableUnifiedMargin, enableUnifiedAccount] = await this.isUnifiedEnabled();
         if (enableUnifiedAccount && !isInverse) {
             const orderId = this.safeString(params, 'orderId');
-            if (orderId === undefined) {
+            if (orderId === undefined && type !== 'spot') {
                 this.checkRequiredSymbol('fetchMyTrades', symbol);
             }
             return await this.fetchMyUnifiedTrades(symbol, since, limit, query);
@@ -6882,6 +6882,7 @@ export default class bybit extends Exchange {
             const first = this.safeValue(symbols, 0);
             const market = this.market(first);
             settle = market['settle'];
+            request['symbol'] = market['id'];
         }
         if (enableUnified[1]) {
             request['settleCoin'] = settle;

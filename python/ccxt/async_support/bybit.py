@@ -5556,7 +5556,7 @@ class bybit(Exchange):
         enableUnifiedMargin, enableUnifiedAccount = await self.is_unified_enabled()
         if enableUnifiedAccount and not isInverse:
             orderId = self.safe_string(params, 'orderId')
-            if orderId is None:
+            if orderId is None and type != 'spot':
                 self.check_required_symbol('fetchMyTrades', symbol)
             return await self.fetch_my_unified_trades(symbol, since, limit, query)
         elif type == 'spot':
@@ -6407,6 +6407,7 @@ class bybit(Exchange):
             first = self.safe_value(symbols, 0)
             market = self.market(first)
             settle = market['settle']
+            request['symbol'] = market['id']
         if enableUnified[1]:
             request['settleCoin'] = settle
         # market None
